@@ -62,4 +62,20 @@
         app:layout_constraintBottom_toTopOf="@+id/abc"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <EditText
+        android:id="@+id/Cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="94dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ABC" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
